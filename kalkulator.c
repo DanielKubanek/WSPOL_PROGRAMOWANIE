@@ -90,26 +90,29 @@ int main() {
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////CWICZENIA Z WCZYTYWANIEM ////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+/*int znaczki()
+{
+     char znak;
+    int wartosc_calkowita;
+    double wartosc_wymierna;
+    char ciag_znakow[256];
+    printf("podaj znak");
+    scanf("%c%", &znak);
+    printf("podaj ciag znakow");
+    scanf("%s%", &ciag_znakow);
+    printf("podaj liczbe calkowita");
+    scanf( "%i" ,   &wartosc_calkowita);
+    printf("podaj liczbe wymierna");
+    scanf("%lf" , &wartosc_wymierna);
+    printf("znak =%c,\n ciag znakowy = %s, \n liczba calkowita = %i,\n liczba wymierna = %lf",
+           znak,
+           ciag_znakow,
+           wartosc_calkowita,
+           wartosc_wymierna
+            );
+}*/
        int main(){
-       /* char znak;
-        int wartosc_calkowita;
-        double wartosc_wymierna;
-        char ciag_znakow[256];
-        printf("podaj znak");
-        scanf("%c%", &znak);
-        printf("podaj ciag znakow");
-        scanf("%s%", &ciag_znakow);
-        printf("podaj liczbe calkowita");
-        scanf( "%i" ,   &wartosc_calkowita);
-        printf("podaj liczbe wymierna");
-        scanf("%lf" , &wartosc_wymierna);
-        printf("znak =%c,\n ciag znakowy = %s, \n liczba calkowita = %i,\n liczba wymierna = %lf",
-               znak,
-               ciag_znakow,
-               wartosc_calkowita,
-               wartosc_wymierna
-                );*/
+
      /*  int Alfa = 5;
        float Beta = 12.45;
                printf("Wynik: \n Alfa = %d, \t Beta = %f\n", Alfa, Beta +500);
@@ -123,12 +126,22 @@ int main() {
 
            }
 */
-     int a =4;
+   /*  int a =4;
      int b = 7;
      printf("%i\n", a++ +b);
      printf("%i\n", ++a +b);
      printf("%i\n", --a + b);
      printf("%i\n", a-- +b);
+     */
+ /*  int a =5;
+   int b = 5;
+   double c = 0.00000001;
+   double d = 0.00000000001;
+   double eps = 0.001;
+   printf("%i\n", a==b);
+   printf("%i\n", (c-d)*(c-d)<eps);
+   */
+
 return 0;
 }
 

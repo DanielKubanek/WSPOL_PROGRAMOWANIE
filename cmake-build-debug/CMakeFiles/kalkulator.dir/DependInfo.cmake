@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/student/Desktop/kalkulator/kalkulator.c" "/home/student/Desktop/kalkulator/cmake-build-debug/CMakeFiles/kalkulator.dir/kalkulator.c.o"
+  "/home/student/Desktop/WSPOL_PROGRAMOWANIE/kalkulator.c" "/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/CMakeFiles/kalkulator.dir/kalkulator.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

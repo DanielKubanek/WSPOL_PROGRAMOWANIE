@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/student/Desktop/kalkulator/cmake-build-debug"/>
+				<Option working_dir="/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/student/Desktop/kalkulator/cmake-build-debug"/>
+				<Option working_dir="/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/student/Desktop/kalkulator/cmake-build-debug"/>
+				<Option working_dir="/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kalkulator">
-				<Option output="/home/student/Desktop/kalkulator/cmake-build-debug/kalkulator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/student/Desktop/kalkulator/cmake-build-debug"/>
+				<Option output="/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/kalkulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 kalkulator"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 kalkulator"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kalkulator/fast">
-				<Option output="/home/student/Desktop/kalkulator/cmake-build-debug/kalkulator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/student/Desktop/kalkulator/cmake-build-debug"/>
+				<Option output="/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/kalkulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,17 +71,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 kalkulator/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/student/Desktop/kalkulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 kalkulator/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Desktop/WSPOL_PROGRAMOWANIE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/student/Desktop/kalkulator/kalkulator.c">
+		<Unit filename="/home/student/Desktop/WSPOL_PROGRAMOWANIE/kalkulator.c">
 			<Option target="kalkulator"/>
 		</Unit>
-		<Unit filename="/home/student/Desktop/kalkulator/CMakeLists.txt">
+		<Unit filename="/home/student/Desktop/WSPOL_PROGRAMOWANIE/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
